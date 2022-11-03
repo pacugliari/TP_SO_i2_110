@@ -17,3 +17,12 @@ RTA:
 
 Si se puede, pero ALFA debe poner como direccion de repositorio remoto el de GAMMA y volver hacer todos los pasos de actualizacion
 marcados en el punto A.
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+RTA:
+Se puede agregando el link del repo de ALFA con git remote add upstream "link del repo de ALFA". Repitiendo los pasos de la respuesta A.
+
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+RTA: No se pierden.
