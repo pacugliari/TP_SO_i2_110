@@ -26,3 +26,91 @@ Se puede agregando el link del repo de ALFA con git remote add upstream "link de
 d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
 el fork?
 RTA: No se pierden.
+
+e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+RTA: 
+
+Alfa: Luca Méndez
+Beta: Matias Acosta
+Gamma: Pablo Cugliari
+
+Beta: 
+-Beta crea repositorio con readme y archivo fork.txt desde web de github
+
+Gamma: 
+-git clone https://github.com/pacugliari/TP_SO_i2_110.git
+-git status
+-git add -A
+-git commit -m "Interaccion 2 punto 2 GAMMA"
+-git push
+
+Alfa:
+-git clone https://github.com/Lucamendez25/TP_SO_i2_110
+-git add .
+-git commit -m "Interaccion 2 punto 3 Alfa"
+-git push
+
+Beta:
+-git init
+-git remote add origin https://github.com/MatiasAcosta91/TP_SO_i2_110.git
+-touch NuevoDato.txt
+-git add .
+-git commit -m "Interaccion 2 Beta punto 4 se agrega nuevodato.txt"
+-git push
+
+Gamma: 
+-git remote add upstream https://github.com/MatiasAcosta91/TP_SO_i2_110.git
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+-git push -f
+
+Alfa: 
+-git remote add upstream https://github.com/MatiasAcosta91/TP_SO_i2_110.git
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+-git push -f
+
+Beta: 
+-touch respuesta_I2_Equipo110.txt
+(Se editan los nombres desde un bloc de notas)
+-git add .
+-git commit -m "Beta: Se crea archivo respuesta_i2_equipo110"
+-git push
+
+Gamma: 
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+-git status
+-git add -A
+-git commit -m "Interaccion 2 punto 5 GAMMA"
+-git push -f
+
+Beta: 
+-git remote add upstream https://github.com/pacugliari/TP_SO_i2_110.git
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+
+-git add .
+-git commit -m "Beta sube respuestas C y D"
+-git push
+
+Alfa: 
+-git remote remove upstream
+-git remote add upstream https://github.com/MatiasAcosta91/TP_SO_i2_110.git
+-git fetch upstream
+-git checkout main
+-git rebase upstream/main
+
+-Sube respuesta e-
+
+
+
+
+
+
+

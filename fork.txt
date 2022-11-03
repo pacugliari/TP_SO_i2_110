@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 NOMBRE: Pablo Alberto - APELLIDO: Cugliari -IP: 181.46.137.251 - HORA: 22:11
+=======
+NOMBRE: Luca - APELLIDO: Méndez -IP: 186.22.54.142 - HORA: 22:14
+>>>>>>> 574c249 (Interaccion 2 punto 3 Alfa)
