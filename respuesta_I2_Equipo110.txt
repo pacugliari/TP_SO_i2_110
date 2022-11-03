@@ -1,3 +1,19 @@
 Alfa: Luca Méndez
 Beta: Matias Acosta
 Gamma: Pablo Cugliari
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+RTA: 
+
+Añadimos el repositorio remoto al local utilizando el comando git remote add "link repo del fork"
+luego hacemos un fetch de todas las ramas del repo original para traer todos los cambios nuevos,finalmente
+rebasamos nuestro trabajo para poder continuar la ultima version del repositorio original subiendo asi los cambios
+del repo original mas nuestros propios cambios.
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+RTA:
+
+Si se puede, pero ALFA debe poner como direccion de repositorio remoto el de GAMMA y volver hacer todos los pasos de actualizacion
+marcados en el punto A.
